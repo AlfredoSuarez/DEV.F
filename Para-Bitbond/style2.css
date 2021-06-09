@@ -1,0 +1,99 @@
+#investor h2,
+#investor h3 {
+  color: blue;
+}
+/* Sección de Destinos a 2 Lineas con Float*/
+.sme_section {
+  text-align: left;
+  width: 90%;
+  margin: auto;
+}
+
+.sme_section h2,
+a {
+  text-align: center;
+}
+
+.sme_section article h3 {
+  float: left;
+}
+
+.sme_section article img {
+  float: right;
+  max-width: 300px;
+}
+
+.sme_section article,
+.sme_section a {
+  clear: both;
+  display: block;
+  padding: 30px;
+}
+
+.sme_section article h3 span {
+  font-size: 18px;
+  font-style: italic;
+}
+
+/* Áqui termina mi Float*/
+.news_section {
+  text-align: left;
+  width: 90%;
+  margin: auto;
+}
+
+.news_section h2,
+a {
+  text-align: center;
+}
+
+.news_section article h5 {
+  float: left;
+}
+.news_section article img {
+  max-width: 750px;
+  margin-left: 10%;
+  align-content: center;
+
+  align-items: center;
+}
+
+.chill {
+  text-align: center;
+  margin-top: 5%;
+  align-content: center;
+}
+
+/* Boton de WhatsApp con position Fixed */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.whatsapp img {
+  max-width: 80px;
+}
+
+/* Menú Sticky */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* Oferton con position relative y absolute */
+.sme-img {
+  position: relative;
+  max-width: 844px;
+  margin: auto;
+}
+
+.oferton {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: red;
+  padding: 20px;
+  color: white;
+}
